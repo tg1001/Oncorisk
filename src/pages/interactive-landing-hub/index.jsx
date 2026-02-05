@@ -1,0 +1,30 @@
+import React, { useEffect } from 'react';
+import Header from '../../components/Header';
+import Footer from '../../components/Footer';
+import HeroSection from './components/HeroSection';
+import PerformanceMetrics from './components/PerformanceMetrics';
+import ModelDemo from './components/ModelDemo';
+import CaseStudies from './components/CaseStudies';
+import CTASection from './components/CTASection';
+
+const InteractiveLandingHub = () => {
+  useEffect(() => {
+    window.scrollTo(0, 0);
+  }, []);
+
+  return (
+    <div className="min-h-screen bg-background">
+      <Header />
+      <main className="pt-16 lg:pt-20">
+        <HeroSection />
+        <PerformanceMetrics />
+        <ModelDemo />
+        <CaseStudies />
+        <CTASection />
+      </main>
+      <Footer />
+    </div>
+  );
+};
+
+export default InteractiveLandingHub;

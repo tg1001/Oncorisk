@@ -5,7 +5,7 @@ import ErrorBoundary from "components/ErrorBoundary";
 import NotFound from "pages/NotFound";
 import DevelopmentPerformance from './pages/development-performance';
 import InteractiveLandingHub from './pages/interactive-landing-hub';
-import ClinicalImplementation from './pages/clinical-implementation';
+import ClinicalImplementation from './pages/gene-db';
 import ResearchPublications from './pages/riskprofile';
 // analytics
 import AnalyticsPage from './pages/analytics';
